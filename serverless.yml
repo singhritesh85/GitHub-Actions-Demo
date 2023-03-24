@@ -8,7 +8,7 @@ provider:
   
 functions:
   hello:
-    handler: src/handler.hello
+    handler: index.hello
     events:
     - http: GET hello
     timeout: 60 # seconds
