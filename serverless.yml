@@ -8,7 +8,7 @@ provider:
   
 functions:
   generateRandomNumber:
-    handler: handler.generateRandomNumber
+    handler: src/handler.generateRandomNumber
     events:
     - http: 
         path: /hello
