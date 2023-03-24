@@ -12,6 +12,6 @@ functions:
     events:
     - http: 
         path: /hello
-        method: GET
+        method: POST      #GET
     timeout: 60 # seconds
     memorySize: 128 # mb
