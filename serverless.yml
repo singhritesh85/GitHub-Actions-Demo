@@ -10,7 +10,7 @@ functions:
   generateRandomNumber:
     handler: src/handler.generateRandomNumber
     events:
-    - http: GET hello
+#    - http:
 #        path: /hello
 #        method: GET
     timeout: 60 # seconds
