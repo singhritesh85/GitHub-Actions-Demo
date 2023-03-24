@@ -7,8 +7,8 @@ provider:
   region: us-east-2
   
 functions:
-  handler:
-    handler: src/index.handler
+  hello:
+    handler: index.handler
     events:
     - http:
         path: /hello
