@@ -1,4 +1,4 @@
-export const handler = async(event) => {
+export const hello = async(event) => {
     // TODO implement
     const response = {
         statusCode: 200,
