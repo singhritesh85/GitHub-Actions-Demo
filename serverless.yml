@@ -10,6 +10,8 @@ functions:
   hello:
     handler: index.handler
     events:
-    - http: GET hello
+    - http: 
+        path: /hello
+        method: GET
     timeout: 60 # seconds
     memorySize: 128 # mb
