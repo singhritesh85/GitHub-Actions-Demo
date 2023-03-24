@@ -11,7 +11,7 @@ functions:
     handler: src/handler.generateRandomNumber
     events:
     - http: 
-        path: /hello
+        path: /   #/hello
         method: GET
     timeout: 60 # seconds
     memorySize: 128 # mb
