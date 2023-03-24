@@ -7,8 +7,8 @@ provider:
   region: us-east-2
   
 functions:
-  hello:
-    handler: index.handler
+  generateRandomNumber:
+    handler: handler.generateRandomNumber
     events:
     - http: 
         path: /hello
