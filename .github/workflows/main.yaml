@@ -9,7 +9,7 @@ jobs:
     runs-on: self-hosted         #runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: [18.x]
+        node_version: [16.x]   #[18.x]
     steps:
     - name: checkout source code
       uses: actions/checkout@v2
