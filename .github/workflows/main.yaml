@@ -3,6 +3,8 @@ on:
   push:
     branches:
     - master
+    paths:
+    - /home/alok/.nvm/versions/node/v16.19.1/bin/node
 jobs:
   deploy_lambda:
     name: deploy lambda from source
